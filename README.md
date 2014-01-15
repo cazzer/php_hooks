@@ -11,6 +11,6 @@ $hooker = new Hooker(array(
 					"callback"
 				)
 		));
-//...later
-$hooker->run($hook);
+//call a hook
+$hooker->run("hook");
 ```
