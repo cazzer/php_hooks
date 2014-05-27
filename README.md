@@ -14,3 +14,8 @@ $hooker = new Hooker(array(
 //call a hook
 $hooker->run("hook");
 ```
+
+You can also add callbacks to a hook after constructions:
+```php
+$hooker->hook("hook", "anotherCallback");
+```
